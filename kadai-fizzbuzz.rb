@@ -13,7 +13,6 @@ end
 end
 
 num_max = 100
-num_max.times do
-num = rand(num_max)
+(1..num_max).each do |num|
 puts fizzbuzz(num)
 end
